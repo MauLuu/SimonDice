@@ -1,0 +1,65 @@
+* {
+  font-family: 'Balsamiq Sans', cursive;
+  margin: 0px;
+  padding:0px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+body {
+  background-color: rgb(0, 0, 0, 1);
+  flex-flow: column;
+}
+h1 {
+  font-size: 26px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255, 0.2);
+  width: 100%;
+  height: 80px;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.head__logo {
+  display: flex;
+  flex-direction: row;
+}
+.head__logo--img {
+  width: 50px;
+  margin-left: 25px;
+}
+.head__logo--name {
+  align-self: flex-end;
+  padding-left: 10px;
+}
+.head__menu {
+  display: flex;
+  flex-direction: row;
+
+}
+.head__menu--item1 {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255, 0.2);
+  padding: 20px;
+  list-style: none;
+  margin: 5px;
+}
+.head__menu--item1:hover {
+  background-color: rgb(139, 195, 74);
+}
+
+.head__menu--item2:hover {
+  background-color: rgb(130, 177, 255);
+}
+.head__menu--item2 {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255, 0.2);
+  padding: 20px;
+  list-style: none;
+  margin: 5px;
+}
+
+/* P R I N C I P A L */

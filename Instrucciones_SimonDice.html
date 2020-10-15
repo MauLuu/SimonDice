@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simon Dice - instrucciones</title>
+
+<style media="screen">
+body {
+  font-size: 18px
+}
+h1 {
+  font-size: 1.5em
+}
+h2 {
+  font-size: 1.2em
+}
+</style>
+  </head>
+
+
+
+  <body>
+<div class="instrucciones">
+  <div class="instrucciones__titulo">
+    <h1>JUEGA SIMON DICE!</h1>
+  </div>
+  <div class="instrucciones__subtitulo">
+    <h2>Diviertete mientras entrenas tu cerebro..</h2>
+  </div>
+
+  <div class="instrucciones__cuerpo">
+    <p>Las instrucciones son muy sencillas.</p>
+    <p>Primero: Dale click al boton "comenzar"</p>
+    <p>Segundo: Espera la secuencia de iluminación</p>
+    <p>Tercero: Repite la secuencia!</p>
+  </div>
+
+  <div class="instrucciones__botones">
+    <button id="subir" class="instrucciones__botones--aumentar" type="button" name="button">Aumentar tamaño</button>
+    <button id="bajar" class="instrucciones__botones--disminuir" type="button" name="button">Disminuir tamaño</button>
+    </div>
+
+
+  </div>
+
+  </body>
+
+  <script>
+     const aumentar = document.getElementById("subir")
+     const disminuir = document.getElementById("bajar")
+
+     function aumentarTamano() {
+    document.p.style.fontSize20px
+     }
+
+     aumentar.addEventListener("click", aumentarTamano)
+
+  </script>
+</html>

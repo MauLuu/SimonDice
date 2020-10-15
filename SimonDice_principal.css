@@ -1,0 +1,105 @@
+/* naranja rgb(255, 167, 38)
+amarillo rgb(255, 238, 88);
+verde rgb(139, 195, 74);
+rojelio rgb(244, 81, 30);
+celeste rgb(130, 177, 255);*/
+
+.principal {
+  display: flex;
+  flex-direction: row;
+}
+
+.principal__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70% ;
+  order:1;
+  margin: 25px;
+}
+
+.principal__side {
+  border-radius: 5px;
+  width: 30%;
+  border: 2px solid rgb(139, 195, 74);
+  margin: 25px;
+  padding: 15px;
+  flex-direction: column;
+  display: flex;
+}
+.principal__side h3, h4, p {
+  padding: 10px 0px;
+}
+.principal__side--parrafo {
+  padding-top: 30px;
+}
+.colorin1 {
+  background-color: rgb(130, 177, 255);
+}
+.colorin2 {
+  background-color: rgb(255, 167, 38);
+}
+.colorin3 {
+  background-color: rgb(244, 81, 30);
+}
+.principal__side--botonera {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+}
+.principal__side--botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.principal__side--botonera h4 {
+  text-align: center;
+}
+
+.boton1 {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255, 0.2);
+  padding: 5px;
+  margin: 5px;
+  list-style: none;
+  border-radius: 2px;
+}
+.boton1:hover {
+  background-color: rgb(244, 81, 30);
+}
+
+.boton2:hover {
+  background-color: rgb(255, 167, 38);
+}
+
+.boton2 {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255, 0.2);
+  list-style: none;
+}
+.boton1 {
+  align-items: center;
+}
+.footer {
+  background-color: ;
+  display: flex;
+  align-items: space-around;
+  height: 100px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer a {
+  color:white;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+.footer a:hover{
+  text-decoration: underline;
+}

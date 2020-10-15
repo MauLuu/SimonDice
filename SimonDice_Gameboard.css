@@ -1,0 +1,77 @@
+.principal__main--juego {
+  width: 100%;
+  height: 100%;
+}
+.gameboard {
+  /*padding-top: 20px;*/
+  height: 50vh;
+  width: 50vh;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 50px auto;
+  max-height: 60vh;
+  max-width: 60vh;
+  position: relative;
+  align-content: center;
+}
+.btn-start {
+  border-radius: 25px;
+  width: 250px;
+  height: 100px;
+  background: #ecf0f1;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc( 50% - 125px);
+}
+.color {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: left;
+}
+
+.celeste {
+  background: #22a6b3;
+}
+
+.celeste.light {
+  background: #7ed6df;
+}
+
+.violeta {
+  background: #be2edd;
+}
+
+.violeta.light {
+  background: #e056fd;
+}
+
+.naranja {
+  background: #f0932b;
+}
+
+.naranja.light {
+  background: #ffbe76;
+}
+
+.verde {
+  background: #6ab04c;
+}
+
+.verde.light {
+  background: #badc58;
+}
+
+
+.hide {
+  display: none;
+}
